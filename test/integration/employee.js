@@ -18,8 +18,8 @@ const Flexitime = require('../../models/employee').Flexitime;
 
 suiteSetup(function() {
   mongoose.connect(dbConfig[process.env.NODE_ENV].url);
-  mongoose.connection.on('error', function(err){
-	  console.log(err);
+  mongoose.connection.on('error', function(err) {
+    console.log(err);
   });
 });
   
@@ -180,7 +180,7 @@ suite('Integration Test Suite', function() {
 });
 
 suiteTeardown(function(done) {
-  mongoose.disconnect(function (err) {
+  mongoose.disconnect(function(err) {
     if (err) {
       return done(err);
     }

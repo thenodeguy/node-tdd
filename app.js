@@ -9,7 +9,7 @@ mongoose.connect(dbConfig[process.env.NODE_ENV].url);
 
 // Close the database connection when Node process ends. 
 process.on('SIGINT', function() {  
-  mongoose.connection.close(function () { 
+  mongoose.connection.close(function() {
     process.exit(0); 
   }); 
 });
