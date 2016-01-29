@@ -1,0 +1,29 @@
+{
+  "name": "node-tdd",
+  "description": "A basic and lean recipe for implementing TDD in Node.",
+  "version": "1.0.0",
+  "author": "benjaminvickers",
+  "license": "ISC",
+  "homepage": "https://github.com/thenodeguy/node-tdd#readme",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=test node ./bin/www",
+    "test": "NODE_ENV=test mocha --ui tdd --recursive"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "~4.13.1",
+    "mongoose": "^4.3.5"
+  },
+  "devDependencies": {
+    "should": "^8.2.1",
+    "supertest": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thenodeguy/node-tdd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thenodeguy/node-tdd/issues"
+  }
+}
