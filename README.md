@@ -1,5 +1,7 @@
 # node-tdd
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/bjvickers/node-tdd.svg)](https://greenkeeper.io/)
+
 A basic and lean recipe for implementing TDD in Node.
 
 Demonstrates unit, integration and acceptance testing using Mocha, assert and
