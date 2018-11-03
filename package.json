@@ -12,12 +12,12 @@
   },
   "dependencies": {
     "body-parser": "^1.14.2",
-    "express": "~4.13.1",
-    "mongoose": "^4.3.5"
+    "express": "~4.16.4",
+    "mongoose": "^5.3.9"
   },
   "devDependencies": {
-    "should": "^8.2.1",
-    "supertest": "^1.1.0"
+    "should": "^13.2.3",
+    "supertest": "^3.3.0"
   },
   "repository": {
     "type": "git",
